@@ -5,7 +5,7 @@ Deploy this application directly to the cloud without needing a local Python vir
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-- **Live URL**: [https://code-ai.onrender.com](https://code-ai.onrender.com)
+- **Live URL**: [https://code-ai-jw3f.onrender.com](https://code-ai-jw3f.onrender.com)
 - **Build Command**: `pip install -r requirements.txt`
 - **Start Command**: `streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true`
 - **Environment Variables**: `GEMINI_API_KEY` (Your Google Gemini API Key)
