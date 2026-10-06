@@ -1,3 +1,16 @@
+
+## 🚀 1-Click Cloud Deployment on Render (Public Access)
+
+Deploy this application directly to the cloud without needing a local Python virtual environment:
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+- **Live URL**: [https://code-ai.onrender.com](https://code-ai.onrender.com)
+- **Build Command**: `pip install -r requirements.txt`
+- **Start Command**: `streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true`
+- **Environment Variables**: `GEMINI_API_KEY` (Your Google Gemini API Key)
+
+---
 # ⚡ CodeAI — Autonomous Coding & Sandbox Execution Agent
 
 > **Portfolio Project #03** | An autonomous closed-loop code generation system with isolated subprocess sandboxing, self-diagnosing error repair, and Google Gemini Flash Cloud AI.
