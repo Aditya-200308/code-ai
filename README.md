@@ -80,7 +80,7 @@ streamlit run app.py
 ## 🌐 Deploy to Streamlit Cloud
 
 1. Push this repository to GitHub.
-2. Visit [share.streamlit.io](https://share.streamlit.io).
+2. Deploy directly to Render with 1-click.
 3. Connect your GitHub repository.
 4. Set **Main file path**: `app.py`
 5. Under **Advanced Settings** ➔ **Secrets**, add:
