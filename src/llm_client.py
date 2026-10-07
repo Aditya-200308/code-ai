@@ -20,7 +20,7 @@ class LLMClient:
     """High-speed Gemini AI client with automatic model fallback."""
 
     # Priority order for fastest response and lowest latency
-    GEMINI_MODELS = ["gemini-3.8-flash"]
+    GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.5-flash-lite", "gemini-3.7-flash", "gemini-3.6-flash"]
 
     def __init__(self, api_key: Optional[str] = None, engine_mode: str = "cloud_turbo"):
         self.api_key = api_key or self._get_secret("GEMINI_API_KEY")
@@ -66,7 +66,7 @@ class LLMClient:
                             "maxOutputTokens": max_tokens,
                         },
                     }
-                    res = requests.post(url, json=payload, timeout=20)
+                    res = requests.post(url, json=payload, timeout=60)
 
                     if res.status_code == 200:
                         data = res.json()
