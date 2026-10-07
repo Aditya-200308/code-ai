@@ -20,12 +20,7 @@ class LLMClient:
     """High-speed Gemini AI client with automatic model fallback."""
 
     # Priority order for fastest response and lowest latency
-    GEMINI_MODELS = [
-        "gemini-3.8-flash",
-        "gemini-3.7-flash",
-        "gemini-3.6-flash",
-        "gemini-flash-latest",
-    ]
+    GEMINI_MODELS = ["gemini-3.8-flash"]
 
     def __init__(self, api_key: Optional[str] = None, engine_mode: str = "cloud_turbo"):
         self.api_key = api_key or self._get_secret("GEMINI_API_KEY")
