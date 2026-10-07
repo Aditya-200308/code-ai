@@ -604,7 +604,7 @@ with t_center:
         <div class="toolbar-brand" style="justify-content: center; margin-bottom: 0.35rem;">
             <span style="font-size: 2rem; color: #00f0ff; text-shadow: 0 0 16px rgba(0, 240, 255, 0.6); font-family: 'JetBrains Mono', monospace; font-weight: 800; line-height: 1;">&lt;/&gt;</span>
             <span class="logo">Code <span class="logo-accent">AI</span></span>
-            <span class="toolbar-badge">⚡ GOOGLE GEMINI FLASH ACTIVE</span>
+            <span class="toolbar-badge">⚡ GOOGLE GEMINI 3.8 FLASH ACTIVE</span>
             <span class="toolbar-badge" style="background: rgba(16, 185, 129, 0.12); color: #34d399; border-color: rgba(16, 185, 129, 0.3);">SANDBOX READY</span>
         </div>
         <div style="font-size: 1.05rem; color: #94a3b8; font-weight: 500; font-family: 'Plus Jakarta Sans', sans-serif;">
@@ -751,7 +751,7 @@ with tab_lab:
             </div>
             <div class="status-item">
                 <span class="status-label">Engine:</span>
-                <span class="status-value">Google Gemini Flash</span>
+                <span class="status-value">Google Gemini 3.8 Flash</span>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -908,7 +908,7 @@ with tab_arch:
         <span class="arch-badge arch-badge-purple">GENERATION</span>
     </div>
     <div class="arch-step-desc">
-        Deconstructs requirements, selects appropriate algorithms, and generates self-contained Python code powered by Google Gemini Flash.
+        Deconstructs requirements, selects appropriate algorithms, and generates self-contained Python code powered by Google Gemini 3.8 Flash.
     </div>
 </div>
 

@@ -21,10 +21,10 @@ class LLMClient:
 
     # Priority order for fastest response and lowest latency
     GEMINI_MODELS = [
-        "gemini-2.0-flash",
-        "gemini-flash-lite-latest",
-        "gemini-2.0-flash-lite",
-        "gemini-2.5-flash",
+        "gemini-3.8-flash",
+        "gemini-3.7-flash",
+        "gemini-3.6-flash",
+        "gemini-flash-latest",
     ]
 
     def __init__(self, api_key: Optional[str] = None, engine_mode: str = "cloud_turbo"):
