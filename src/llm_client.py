@@ -11,7 +11,11 @@ import requests
 
 try:
     from dotenv import load_dotenv
-    load_dotenv()
+    _parent = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+    if os.path.exists(_parent):
+        load_dotenv(_parent)
+    else:
+        load_dotenv()
 except ImportError:
     pass
 
